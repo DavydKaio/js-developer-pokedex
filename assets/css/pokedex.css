@@ -372,7 +372,7 @@
   margin: 0;
   width: 100%;
   height: 50px;
-  background: red;
+  background: #e3350d;
 }
 
 .button-content::before {
@@ -411,6 +411,22 @@
   height: 20px;
   background-color: black;
 }
+
+#loadMoreButton {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #e3350d;
+  border: 2px solid black;
+  transition: .5s;
+}
+
+#loadMoreButton:hover {
+  transform: scale(1.05);
+}
+
 
 @media screen and (max-width: 1450px) {
   #pokedex-button {
