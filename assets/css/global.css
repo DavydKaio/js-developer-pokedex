@@ -9,8 +9,8 @@ body {
 
 .content {
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     background-color: #fff;
 }
 
