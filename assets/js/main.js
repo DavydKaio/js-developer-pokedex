@@ -1,5 +1,6 @@
 const pokemonList = document.getElementById("pokemonList");
 const loadMoreButton = document.getElementById("loadMoreButton");
+const pokedexButton = document.getElementById("#pokedex-button");
 const modal = document.getElementById("modal");
 
 const maxRecords = 151;
