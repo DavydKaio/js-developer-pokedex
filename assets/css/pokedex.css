@@ -258,6 +258,10 @@
   color: #fff;
 }
 
+.gg-close:hover {
+  color: #000;
+}
+
 .modal_details {
   width: 100%;
   background-color: #fff;
@@ -274,6 +278,7 @@
 
 .modal_details .modal_img_container .modal_img {
   width: 150px;
+  height: 150px;
 }
 
 .details_container {
@@ -349,15 +354,3 @@
 .red {
   border-color: #f00;
 }
-
-/* @media screen and (min-width: 380px) {
-  .modal_content {
-    max-width: 440px;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .modal_content {
-    max-width: 240px;
-  }
-} */
