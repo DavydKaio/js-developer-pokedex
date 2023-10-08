@@ -169,6 +169,7 @@
   padding: 0;
   border-width: 0;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .modal {
@@ -353,4 +354,8 @@
 
 .red {
   border-color: #f00;
+}
+
+.gold {
+  border-color: #ffd700;
 }

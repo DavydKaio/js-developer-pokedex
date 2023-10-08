@@ -121,7 +121,7 @@ function insertModalContent(pokemonInfo) {
                   (stat) => `<span class="modal_stat_container">
                 <span class="stat_value">${stat[1]}</span>
                 <span class="stat_bar ${
-                  stat[1] >= 50 ? "green" : "red"
+                  stat[1] >= 50 ? (stat[1] > 99 ? "gold" : "green") : "red"
                 }"></span>
               </span>`
                 )
